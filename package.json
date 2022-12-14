@@ -1,0 +1,23 @@
+{
+  "name": "@dewebio/bbs-common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deweb-io/bbs-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deweb-io/bbs-common/issues"
+  },
+  "homepage": "https://github.com/deweb-io/bbs-common#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^6.4.1"
+  },
+  "type": "module"
+}
