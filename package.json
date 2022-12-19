@@ -1,6 +1,6 @@
 {
   "name": "@dewebio/bbs-common",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,8 +16,8 @@
     "url": "https://github.com/deweb-io/bbs-common/issues"
   },
   "homepage": "https://github.com/deweb-io/bbs-common#readme",
+  "type": "module",
   "dependencies": {
-    "@google-cloud/firestore": "^6.4.1"
-  },
-  "type": "module"
+    "firebase": "^9.15.0"
+  }
 }
