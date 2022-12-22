@@ -1,7 +1,8 @@
 {
   "name": "@dewebio/bbs-common",
-  "version": "1.0.4",
-  "description": "",
+  "type": "module",
+  "version": "1.0.5",
+  "description": "A library of common BBS functionality",
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,14 +11,23 @@
     "type": "git",
     "url": "git+https://github.com/deweb-io/bbs-common.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "BBS",
+    "message-board",
+    "social"
+  ],
+  "author": "Israel Levin",
+  "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/deweb-io/bbs-common/issues"
   },
   "homepage": "https://github.com/deweb-io/bbs-common#readme",
-  "type": "module",
   "dependencies": {
     "firebase": "^9.15.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.26.0"
   }
 }
