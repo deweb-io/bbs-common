@@ -1,7 +1,7 @@
 {
   "name": "@dewebio/bbs-common",
   "type": "module",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A library of common BBS functionality",
   "main": "./index.js",
   "scripts": {

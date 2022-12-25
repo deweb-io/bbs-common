@@ -38,4 +38,4 @@ export const getPostsByCommunity = async(community) => (await firestore.getDocs(
 
 export const getPostById = async(id) => (await firestore.getDocs(await firestore.query(
     postsCollection, firestore.where('id', '==', id)
-)))[0].data();
+))).docs[0].data();
