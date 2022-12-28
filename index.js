@@ -36,6 +36,4 @@ export const getPostsByCommunity = async(community) => (await firestore.getDocs(
     postsCollection, firestore.where('tokenName', '==', community)
 ))).docs.map((doc) => doc.data());
 
-export const getPostById = async(id) => (await firestore.getDocs(await firestore.query(
-    postsCollection, firestore.where('id', '==', id)
-))).docs[0].data();
+export const getPostById = async(id) => (await firestore.getDoc(firestore.doc(postsCollection, id))).data();
