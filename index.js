@@ -37,3 +37,5 @@ export const getPostsByCommunity = async(community) => (await firestore.getDocs(
 ))).docs.map((doc) => doc.data());
 
 export const getPostById = async(id) => (await firestore.getDoc(firestore.doc(postsCollection, id))).data();
+
+export const getAuthToken = async() => await window.deWeb.getFirebaseIdToken();
